@@ -1,0 +1,16 @@
+https://styled-components.com/docs/faqs#i-am-a-library-author.-should-i-bundle-styled-components-with-my-library
+	> no, you should not bundle them together
+	> have it as a dev dependency and peer dependency
+
+https://scottbolinger.com/react-component-library-static-css/
+	> CSS in JS (i.e. tailwind, styled-components) can be slow
+	> static CSS (good ol boy) can be faster
+	> Chad Gippity says there are tools to switch over to static from styled: a library called styled-components-to-static-cssw
+
+	some stages have multiple passes, show each of them
+	uncertain of how many pipelines to show, but whatever, just start with one, that in itself will be enormous
+
+	fOR EACH STAGE, all statuses will be the same	
+		> if not, certain statuses take precedence and can be shown above all else
+
+	stage 1 || stage 2 || stage 3 || etc 
